@@ -1,0 +1,1128 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Nunito', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+ul {
+  padding-left: 0px;
+  margin-bottom: 0px;
+}
+
+
+/* ...........................topbar css.............................. */
+.topbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-area {
+  display: flex;
+}
+
+.social-area {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.social-icons ul {
+  display: flex;
+  align-items: end;
+}
+
+.info-area a {
+  color: #fff;
+}
+
+.social-area a {
+  color: #000;
+}
+
+section.topbar-area {
+  background-color: #e3000f;
+  padding: 9px;
+}
+
+ul.navbar-nav {
+  align-items: center;
+}
+
+.info-area i {
+  margin-right: 5px;
+  line-height: 45px;
+}
+
+.call-cont {
+  margin-right: 25px;
+  font-size: 15px;
+}
+
+.social-icons ul li {
+  background-color: #fff;
+  width: 35px;
+  height: 35px;
+  line-height: 37px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 11px;
+}
+
+.social-icons {
+  padding-right: 50px;
+}
+
+
+/* ..............................navbar css.............................. */
+
+
+.call-icon i {
+  color: #fff;
+  font-size: 20px;
+}
+
+.call-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #000;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  margin: 0px 15px;
+}
+
+nav.navbar.navbar-expand-lg img {
+  width: 100%;
+  height: 80px;
+}
+
+.dropdown .dropdown-content a {
+  font-size: 23px;
+  padding: 8px 8px;
+  font-weight: 600;
+}
+
+button.dropdown-btn {
+  display: none;
+}
+
+.dropdown-content {
+  border-radius: 5px;
+  display: none;
+  position: absolute;
+  background-color: #f8f9fa;
+  min-width: 360px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 10px;
+  display: block;
+  font-size: 18px;
+}
+
+.dropdown-content a:hover {
+  background-color: #e3000f;
+  color: white;
+  width: 100%;
+}
+
+header.navbar-area {
+  background-color: #f8f9fa;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  color: #fff;
+}
+
+a.dropbtn {
+  line-height: 50px;
+  color: #595959;
+}
+
+div#navbarSupportedContent {
+  justify-content: end;
+}
+
+li.nav-item a {
+  font-size: 25px;
+  font-weight: 700;
+  color: #000;
+  margin-right: 25px;
+  padding: 0px;
+}
+
+
+
+div#navbarSupportedContent p {
+  font-weight: 700;
+  margin-bottom: 0px;
+  font-size: 20px;
+}
+
+button.dropdown-btn {
+  border: none;
+  background: transparent;
+  display: none;
+}
+
+button.dropdown-btn a {
+  font-size: 25px;
+  color: #000;
+  font-weight: 700;
+}
+
+button.dropdown-btn i {
+  position: absolute;
+  right: 50px;
+  font-size: 25px;
+}
+.dropdown-container {
+  display: none;
+}
+
+.dropdown-container li {
+  padding: 8px 0;
+}
+
+.dropdown-container li a.dropdown-item {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* ........................banner css......................... */
+
+
+
+/* .........................form-area.................. */
+
+section.quote-price-area {
+  padding: 80px 0px;
+}
+
+.form-area h2 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.form-area {
+  background-color: #e3000f;
+  padding: 25px;
+  width: 490px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.form-btn {
+  text-align: center;
+  background-color: #000;
+  border-radius: 5px;
+  height: 40px;
+  line-height: 40px;
+}
+
+button.appointment-btn {
+  background-color: #000;
+  color: #fff;
+  border: none;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.quote-price-cont h5 {
+  color: blue;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.quote-price-cont h2 {
+  font-weight: 800;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+.quote-price-cont p {
+  font-size: 17px;
+  font-weight: 400;
+  text-align: justify;
+}
+
+
+/* ...............................about-us-css........................................ */
+.about-img img {
+  width: 100%;
+  height: 450px;
+}
+
+section.about-us-area {
+  background-color: #e3000f;
+  padding: 85px 50px;
+}
+
+.about-cont {
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+.about-cont h3 {
+  font-weight: 800;
+  font-size: 30px;
+  letter-spacing: 0.3px;
+  margin-bottom: 10px;
+}
+
+.about-cont h2 {
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.about-cont p {
+  font-size: 17px;
+  letter-spacing: 0.3px;
+  text-align: justify;
+}
+
+.about-cont i {
+  font-size: 15px;
+  margin-right: 10px;
+}
+
+/* ........................................services-css................................ */
+section.services-area {
+  padding: 80px 0px 50px 0px;
+}
+
+.service-content {
+  padding: 8px 0px 0px;
+}
+
+.service-blog h5 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  color: #328df9;
+  margin-bottom: 15px;
+}
+
+.service-blog h3 {
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.service-blog p {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.service-content h3 {
+  font-weight: 700;
+  text-align: start;
+  padding: 0px 8px;
+}
+
+.service-content p {
+  font-size: 16px;
+  text-align: justify;
+  margin-bottom: 5px;
+  padding: 0px 8px;
+}
+
+.service-content h5 {
+  text-align: center;
+  background-color: #e3000f;
+  line-height: 50px;
+  border-radius: 0px 30px;
+  height: 50px;
+  margin-bottom: 0px;
+}
+
+.service-content a {
+  color: #fff;
+  font-weight: 700;
+}
+
+.service-box {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+  margin-right: 15px;
+  margin-bottom: 50px;
+  border-radius: 0px 30px;
+}
+
+.service-img img {
+  width: 100%;
+  height: 280px;
+  object-fit: cover;
+}
+
+
+/* ..........................remove-solution-css.................... */
+.solution-cont {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 0px;
+}
+
+section.remove-solution-area {
+  background-color: #f0ece5;
+  padding: 65px 0px 30px;
+}
+
+section.remove-solution-area h3 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+}
+
+section.remove-solution-area p {
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.sol-img-cont img {
+  padding: 20px;
+}
+
+.solution-cont h5 {
+  background-color: #e3000f;
+  text-align: center;
+  border-radius: 15px 0px 15px 0px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  height: 35px;
+  width: 207px;
+  line-height: 32px;
+}
+
+/* ..............................qa-area-css............................ */
+section.qa-area {
+  padding: 80px 0px;
+}
+
+section.qa-area h5 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+/* .....................................choose-us-css............................ */
+.choose-heading h5 {
+  text-align: center;
+  font-weight: 700;
+  color: #1789f8;
+  margin-bottom: 20px;
+}
+
+.choose-heading h2 {
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #000000;
+}
+
+.choose-heading span {
+  color: #bb0b0b;
+  display: block;
+}
+
+.choose-heading {
+  padding: 30px;
+}
+
+
+.choose-img-content1 img {
+  width: 90px;
+  height: 90px;
+}
+
+
+.choose-img-content1 {
+  display: flex;
+  padding: 25px 0px;
+  align-items: center;
+}
+
+.content1-area {
+  margin-left: 20px;
+}
+
+.content1-area h5 {
+  font-weight: 700;
+}
+
+.choose-us-content {
+  display: flex;
+}
+
+.choose-img img {
+  width: 100%;
+  height: 410px;
+  border-radius: 15px;
+}
+
+section.choose-us-area {
+  background-color: #ebebeb;
+  padding: 50px;
+}
+
+
+/* ...............................services2-css................. */
+section.services-area-part2 {
+  padding: 80px 0px 50px 0px;
+  background-color: #ffc800;
+}
+
+section.services-area-part2 h3 {
+  color: #fff;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.service-cont {
+  display: flex;
+}
+
+.ser-cont a {
+  color: #fa5131;
+  font-size: 18px;
+  font-weight: 700;
+  padding: 13px;
+}
+
+.ser-cont {
+  margin-bottom: 35px;
+  display: flex;
+  justify-content: start;
+  background-color: #fff;
+  margin-right: 22px;
+  border-radius: 10px;
+}
+
+/* ..................................faq-area-css................................ */
+section.faq-area {
+  padding: 80px 0px;
+}
+
+button.accordion-button {
+  box-shadow: none !important;
+}
+
+.faq-head h3 {
+  text-align: center;
+  font-weight: 700;
+  padding: 0px 0px 60px 0px;
+}
+
+button.accordion-button {
+  background-color: #fff !important;
+  color: #e6210f !important;
+}
+
+button.accordion-button.collapsed h5 {
+  color: #e6210f;
+  font-weight: 700;
+}
+
+h1.accordion-header {
+  border: none;
+  color: red;
+}
+
+.accordion-item {
+  border-radius: 5px;
+  margin-bottom: 20px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.faq-cont-area {
+  display: flex;
+}
+
+div#accordionExample {
+  margin-right: 30px;
+}
+
+.why-choose-us-area h5 {
+  color: red;
+  font-weight: 700;
+}
+
+.why-choose-us-area h3 {
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.why-box {
+  display: flex;
+}
+
+.truck-icon i {
+  font-size: 30px;
+  color: red;
+}
+
+.truck-icon {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.2);
+}
+
+.truck-icon {
+  margin: 0px 0px 15px 0px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  height: 200px;
+}
+
+/* .....................................footer-css........................... */
+.footer-logo img {
+  width: 100%;
+  filter: brightness(0)invert(1);
+}
+
+footer.footer-area {
+  background: linear-gradient(to right, #1489f9 11%, #e3000f 100%);
+  padding: 80px 0px 50px 0px;
+}
+
+.footer-logo p {
+  color: #fff;
+  font-weight: 500;
+  margin: 10px;
+}
+
+.industries-area ul li {
+  padding: 5px 0px;
+}
+
+.industries-area h2 {
+  color: #fff;
+  font-weight: 700;
+}
+
+.industries-area a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  border-bottom: thin dashed;
+}
+
+.what-do-area ul li {
+  padding: 5px 0px;
+}
+
+.what-do-area h2 {
+  color: #fff;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.what-do-area a {
+  color: #fff;
+  font-weight: 500;
+  font-size: 18px;
+  border-bottom: thin dashed;
+}
+
+.contact-area {
+  color: #fff;
+}
+
+.contact-area h2 {
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.contact-area i {
+  margin-right: 8px;
+}
+
+.contact-area p {
+  font-size: 17px;
+  font-weight: 500;
+  border-bottom: thin dashed;
+}
+
+.social-icons-2 ul li {
+  background-color: #00c7c7;
+  width: 35px;
+  height: 35px;
+  line-height: 37px;
+  text-align: center;
+  margin: 5px;
+  border-radius: 11px;
+}
+
+.social-area-2 {
+  display: flex;
+}
+
+.social-icons-2 ul {
+  display: flex;
+  align-items: end;
+}
+
+.social-area-2 a {
+  color: #fff;
+}
+
+.social-icons-2 {
+  padding-right: 50px;
+}
+
+
+
+/*  ........................ copyright-css......................... */
+section.copyright-area {
+  background-color: #c30202;
+  padding: 10px 0px;
+}
+
+.tf_copyright a {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tf_copyright p {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.tf_copyright {
+  display: flex;
+  justify-content: space-between;
+}
+
+.side-area a {
+  margin-right: 20px;
+}
+
+.tf_copyright {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ..............................................about-us-page-css.............................. */
+section.banner-about {
+  background-color: #f0ece5;
+  padding: 100px 0px;
+}
+
+.image-banner img {
+  width: 100%;
+}
+
+.written-banner h2 {
+  font-size: 37px;
+  font-weight: 700;
+  color: #000;
+}
+
+.part-abt {
+  display: flex;
+  color: #0f86dc;
+}
+
+.i-abt i {
+  font-size: 60px;
+  margin-right: 10px;
+  border: 1px dashed #0f86dc;
+  padding: 8px;
+}
+
+.text-abt h3 {
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.text-abt h5 {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.a-abt a {
+  color: #fff;
+  background-color: #0f86dc;
+  padding: 10px 20px;
+  font-weight: 700;
+}
+
+.a-abt {
+  padding: 35px 0px;
+}
+
+section.relocation-area {
+  padding: 80px 0px;
+}
+
+.reloc-img img {
+  width: 100%;
+  height: 505px;
+}
+
+section.relocation-area h5 {
+  color: #000;
+  font-weight: 700;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.reloc.text p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+
+
+
+/* .....................................blog-area-css................................ */
+.img-blog img {
+  width: 100%;
+}
+
+section.blog-area {
+  padding: 80px 0px;
+}
+
+section.blog-area a {
+  color: #000;
+}
+
+.text-blog h3 {
+  font-weight: 700;
+  margin-top: 6px;
+}
+
+.text-blog p {
+  text-align: justify;
+}
+
+.blogpost {
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3);
+  height: 540px;
+}
+
+.text-blog {
+  padding: 10px;
+}
+
+.text-blog p {
+  font-size: 17px;
+}
+
+
+
+
+/* ...............................contact-css........................ */
+section.contact-area-page {
+  background-color: #ebebeb;
+  padding: 90px 0px;
+  text-align: center;
+}
+
+input.form-control {
+  border-radius: 0px;
+  padding-bottom: 13px;
+  margin-bottom: 10px;
+  font-size: 19px;
+  border: 0.5px solid grey;
+}
+
+.get-in-touch p {
+  text-align: center;
+}
+
+textarea.form-control {
+  border-radius: 0px;
+  font-size: 19px;
+  border: 0.5px solid grey;
+}
+
+section.contact-area-page h1 {
+  font-weight: 700;
+}
+
+.form-btn-cont {
+  text-align: start;
+  margin-top: 12px;
+}
+
+.form-area-2 {
+  padding: 30px 0px;
+}
+
+button.appointment-btn-2 {
+  color: #fff;
+  padding: 10px 15px;
+  background-color: #5d6b82;
+  font-size: 20px;
+  font-weight: 700;
+  border: 1px solid #fff;
+  border-radius: 4px;
+  width: 120px;
+}
+
+.address-cont-2 {
+  text-align: start;
+  padding-top: 30px;
+}
+
+.address-cont-2 a {
+  color: #000;
+}
+
+.follow-us {
+  text-align: start;
+}
+
+.social-icons ul li i {
+  color: #000;
+}
+
+.address-cont-2 h3 {
+  font-weight: 700;
+}
+
+.follow-us h3 {
+  font-weight: 700;
+}
+
+.map-cont iframe {
+  width: 100%;
+}
+
+
+
+
+/* ......................................domestic-area-css........................ */
+section.domestic-sec {
+  padding: 80px 0px;
+}
+
+.domestic-img img {
+  width: 100%;
+  height: 310px;
+  margin-bottom: 20px;
+}
+
+.domestic-txt h1 {
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.domestic-txt p {
+  font-size: 18px;
+  text-align: justify;
+}
+
+.why-domestic {
+  display: flex;
+}
+
+.why-domestic-img img {
+  width: 100%;
+}
+
+.why-domestic-txt h4 {
+  font-size: 21px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.why-domestic-txt p {
+  text-align: justify;
+  margin: 0px 15px;
+  font-size: 17px;
+}
+
+.service-cont-2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.side-head h5 {
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  background-color: #1489f9;
+  color: #fff;
+  padding: 15px 0px;
+}
+
+.side-service ul li a {
+  color: #000;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.side-service ul li {
+  border: 1px solid grey;
+  padding: 10px 15px;
+}
+
+.form-area-3 h5 {
+  font-size: 22px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.side-head {
+  margin: 12px 0px 0px 0px;
+}
+
+.side-service {
+  margin-top: -9px;
+}
+
+.side-service ul li a i {
+  font-size: 20px;
+  margin: 0px 8px;
+}
+
+.side-service ul li p i {
+  margin: 0px 8px;
+  font-size: 20px;
+}
+
+.side-service ul li p {
+  font-weight: 600;
+}
+
+.form-area-3 {
+  margin-top: 50px;
+  padding: 20px 20px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+button.appointment-btn-3 {
+  border: none;
+  color: #fff;
+  padding: 15px 20px;
+  background-color: #e3000f;
+  font-size: 20px;
+}
+
+.form-btn-cont-2 {
+  background-color: #e3000f;
+  text-align: center;
+}
+
+
+
+/* .............................services-mainpage-css........................ */
+section.our-services-part-2 {
+  background-color: #f0ece5;
+  padding: 80px 0px 0px 0px;
+  text-align: center;
+}
+
+section.our-services-part-2 h3 {
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #53a5f3;
+}
+
+section.our-services-part-2 p {
+  margin: 5px;
+}
+
+.left-serv-content {
+  text-align: start;
+  padding: 21px;
+}
+
+.serv-right-contt {
+  display: flex;
+}
+
+.ser-link {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 20px;
+  border: 3px dashed #63a8f2;
+  padding: 13px 0px;
+}
+
+.ser-link i {
+  font-size: 30px;
+  line-height: 40px;
+  color: #63a8f2
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .........................get-a-quote-btn.......................... */
+.form-area-quote-2 {
+  padding: 0px 5px;
+}
+.form-area-quote-2 h2 {
+font-weight: 700;
+padding-bottom: 10px;
+text-align: center;
+text-transform: uppercase;
+}
+button.btn.btn-primary {
+  background-color: #fff;
+  color: #000;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  padding: 5px 7px;
+}
+.modal-header h2 {
+  font-size: 25px;
+  margin: 0px;
+  font-weight: 600;
+}
